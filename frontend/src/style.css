@@ -181,3 +181,14 @@ th { color: var(--bg-dim); font-weight: 600; font-size: 0.78rem; }
   position: absolute; top: 8px; width: 10px; height: 32px;
   border-radius: 2px; transform: translateX(-50%);
 }
+
+.btn-sm { padding: 0.25rem 0.6rem; font-size: 0.78rem; margin-right: 0.35rem; }
+.btn-ghost { background: transparent; color: var(--bg-dim); border: 1px solid var(--bg-edge); }
+.btn-ghost:hover { color: var(--bg-text); }
+.dt-input {
+  background: #0a1824; color: var(--bg-text);
+  border: 1px solid var(--bg-edge); padding: 0.3rem 0.45rem;
+  font-size: 0.85rem; font-family: inherit;
+}
+.dt-input:focus { outline: none; border-color: var(--bg-cyan); }
+.err { color: var(--bg-red); font-size: 0.82rem; margin: 0.5rem 0 0; }
